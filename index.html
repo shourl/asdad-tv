@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telewizja</title>
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telewizja</h1>
+        <input type="text" id="channel-search" placeholder="Wyszukaj kanał...">
+        <div id="channel-list">
+        </div>
+        <video id="player" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360"></video>
+    </div>
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
